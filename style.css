@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#cc6f12,#47cc73,#058a48);
+}
+
+center{
+    background:white;
+    padding:35px;
+    width:450px;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.3);
+}
+
+h1{
+    color:#1a3cb7;
+    margin-bottom:20px;
+}
+h1{
+    font-family: sans-serif;
+}
+
+input{
+    width:70%;
+    padding:12px;
+    border:2px solid #cbd5e1;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+input:focus{
+    border-color:#2563eb;
+}
+
+button{
+    padding:12px 18px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+#task{
+    margin-top:25px;
+}
+
+#task li{
+    list-style:none;
+    background:#f8fafc;
+    margin-top:12px;
+    padding:12px 15px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+#task li button{
+    background:#ef4444;
+}
+
+#task li button:hover{
+    background:#dc2626;
+}
