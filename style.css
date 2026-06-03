@@ -10,7 +10,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#cc6f12,#47cc73,#058a48);
+    background:linear-gradient(135deg,#cc5f12,#e10e74,#058a48);
 }
 
 center{
@@ -40,14 +40,14 @@ input{
 }
 
 input:focus{
-    border-color:#2563eb;
+    border-color:#093799;
 }
 
 button{
     padding:12px 18px;
     border:none;
     border-radius:10px;
-    background:#2563eb;
+    background:#083390;
     color:white;
     font-weight:bold;
     cursor:pointer;
@@ -55,7 +55,7 @@ button{
 }
 
 button:hover{
-    background:#1d4ed8;
+    background:#042376;
     transform:translateY(-2px);
 }
 
@@ -76,7 +76,7 @@ button:hover{
 }
 
 #task li button{
-    background:#ef4444;
+    background:#d80a0a;
 }
 
 #task li button:hover{
