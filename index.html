@@ -1,10 +1,32 @@
-<center>
-<h1>Enter Your Tasks HERE!!!</h1>
-<br>
-<input id="input">
-<button onclick="add()">Add</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div id="task">
+    <div class="container">
 
-</div>
-</center>
+        <h1>📝 My ToDo List</h1>
+        <h3>Completed Task : <span id="completed">0</span></h3>
+        <h3>Total Task : <span id="total"></span> </h3>
+        <br>
+
+        <div class="input-box">
+            <input id="input" type="text" placeholder="Enter your tasks">
+            <button onclick="add()">Add Task</button>
+            
+
+        </div>
+
+        <ul id="task"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
