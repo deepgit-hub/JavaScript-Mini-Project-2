@@ -2,6 +2,9 @@
 
 A simple and interactive ToDo Application built using **HTML, CSS, and JavaScript**.
 
+## 🚀 Live Demo
+https://deepgit-hub.github.io/JavaScript-Mini-Project-2/
+
 ## 🚀 Live Features
 
 ✅ Add Tasks
